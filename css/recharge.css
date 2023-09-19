@@ -1,0 +1,30 @@
+.record{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+    margin: 10px;
+}
+.text-record{
+    font-size: 20px;
+    font-weight: 600;
+}
+.putnumber{
+    color: rgb(8, 173, 118);
+}
+.success{
+    color: green;
+}
+.failse{
+    color: red;
+}
+.flex-cul{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:500px){
+    .text-record{
+        font-size: 15px;
+    }
+}

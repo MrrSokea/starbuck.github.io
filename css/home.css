@@ -1,0 +1,405 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 15px 10px -15px #111;
+    margin-bottom: 30px;
+}
+
+.bran {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.bran a {
+    text-decoration: none;
+    color: black;
+}
+
+.b-right {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.Sign-in {
+    border: 2px solid gray;
+    font-size: 25px;
+    padding: 5px 40px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.Sign-up {
+    border: 2px solid gray;
+    font-size: 25px;
+    padding: 5px 40px;
+    border-radius: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.b-right a {
+    text-decoration: none;
+}
+
+.text-meu {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.text-meu:hover {
+    transition: 0.1s;
+    font-size: 25px;
+    color: green;
+    border-bottom: 5px solid green;
+}
+
+.img-logo {
+    height: 80px;
+}
+
+.icon_memu {
+    height: 60px;
+}
+
+.contain-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.bt {
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bt1 {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.bt2 {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.footer {
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0px -15px 10px -15px #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-banner1 {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/img_baner1.png");
+    background-size: 100% 100%;
+}
+
+.img-banner2 {
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/img_baner2.png");
+    background-size: 100% 100%;
+}
+
+.img-banner3 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/img_baner3.png");
+    background-size: 100% 100%;
+}
+
+p {
+    font-size: 28px;
+}
+
+.footer {
+    border-bottom: 1px solid black;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+}
+
+.image-user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url("../img/image_user.png");
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.text-toggle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Name_user {
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 18px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+    color: rgb(128, 128, 128);
+    font-weight: 500;
+}
+
+.other:hover {
+    background-color: gray;
+    color: white;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+}
+
+.img-icon {
+    margin-right: 10px;
+    height: 30px;
+}
+
+.text-fotter {
+    font-size: 20px;
+}
+.offcanvas_footer{
+    margin-top: 30px;
+    display: none;
+}
+.sign-in{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    border: 1px solid gray;
+    color: black;
+    padding: 5px 0px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sign-up{
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    margin-left: 5px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+@media(max-width:1055px) {
+    .img-logo {
+        height: 50px;
+    }
+
+    .icon_memu {
+        height: 40px;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .bran {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+    }
+
+    .b-right {
+        width: 430px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .text-meu {
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .text-meu:hover {
+        transition: 0.1s;
+        font-size: 13px;
+        color: green;
+        border-bottom: 5px solid green;
+    }
+
+    .Sign-in {
+        font-size: 20px;
+        padding: 3px 30px;
+        border-radius: 90px;
+        font-weight: 500;
+    }
+
+    .Sign-up {
+        font-size: 20px;
+        padding: 3px 30px;
+        font-weight: 500;
+    }
+
+    .img-banner1 {
+        height: 290px;
+    }
+
+    .img-banner2 {
+        height: 390px;
+    }
+
+    .img-banner3 {
+        height: 410px;
+    }
+}
+
+@media(max-width:992px) {
+    .footer {
+        padding: 5px;
+    }
+
+    .img-banner1 {
+        height: 210px;
+    }
+
+    .img-banner2 {
+        height: 280px;
+    }
+
+    .img-banner3 {
+        height: 270px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-banner1 {
+        height: 150px;
+    }
+
+    .img-banner2 {
+        height: 210px;
+    }
+
+    .img-banner3 {
+        height: 200px;
+    }
+    .text-fotter {
+        padding: 15px;
+    }
+}
+@media(max-width:671px){
+    .Sign-in {
+        font-size: 15px;
+        padding: 3px 20px;
+        border-radius: 90px;
+        font-weight: 500;
+    }
+
+    .Sign-up {
+        font-size: 15px;
+        padding: 3px 20px;
+        font-weight: 500;
+    }
+    .icon_memu {
+        height: 30px;
+    }
+    .text-meu{
+        font-size: 12px;
+    }
+    .b-right{
+        width: 30px  ;
+    }
+    .b-right a{
+        display: none;
+    }
+    .contain-block {
+        margin-bottom: 20px;
+    }
+    .img-icon {
+        height: 20px;
+    }
+    .other {
+        padding: 10px 0px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .offcanvas_footer{
+        display: block;
+    }
+    .Name_user {
+        color: rgba(0, 0, 0, 0.658);
+        font-size: 14px;
+    }
+    .offcanvas-header-more {
+        height: 60px;
+      }
+}
+@media(max-width:500px){
+    
+    .img-banner1 {
+        height: 90px;
+    }
+
+    .img-banner2 {
+        height: 130px;
+    }
+
+    .img-banner3 {
+        height: 130px;
+    }
+    .text-fotter{
+        font-size: 14px;
+    }
+}

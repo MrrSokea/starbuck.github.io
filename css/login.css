@@ -1,0 +1,129 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lebel {
+    width: 5%;
+    font-size: 20px
+}
+
+input[type=text] {
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 500px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+input[type=password] {
+    border-style: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    width: 500px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.btn-block {
+    background-color: #05714B;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.re-lo {
+    margin-top: 20px;
+}
+
+.img-logo {
+    height: 140px;
+}
+
+@media(max-width:750px) {
+    input[type=text] {
+        border-style: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        font-size: 20px;
+        width: 90%;
+        margin: 15px 0px;
+    }
+
+    input[type=password] {
+        border-style: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        font-size: 20px;
+        width: 90%;
+        margin: 15px 0px;
+    }
+
+    .img-logo {
+        height: 120px;
+    }
+}
+
+@media(max-width: 400px) {
+    .lebel {
+        width: 5%;
+        font-size: 20px
+    }
+
+    input[type=text] {
+        border-style: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        font-size: 20px;
+        width: 90%;
+        margin: 15px 0px;
+    }
+
+    input[type=password] {
+        border-style: none;
+        outline: none;
+        border-bottom: 1px solid gray;
+        font-size: 20px;
+        width: 90%;
+        margin: 15px 0px;
+    }
+    .img-logo {
+        height: 80px;
+    }
+    .btn-block {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+}

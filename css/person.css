@@ -1,0 +1,172 @@
+.t-center {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.brand-user {
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.logo i {
+    color: black;
+    font-size: 40px;
+}
+
+.t-icon i {
+    color: white;
+}
+
+.bliock-setting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t-icon {
+    font-size: 30px;
+}
+
+.dolar {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.r-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.function-fle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.fun1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-icon1 {
+    height: 30px;
+}
+
+.contain-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.fle-i-t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-i {
+    height: 20px;
+    margin: 10px;
+}
+
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    background-color: #05714B;
+    padding: 10px;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: white;
+    color: #05714B;
+  }
+.img-t-i-c1{
+    height: 40px;
+}
+.img-t-i-c2{
+    height: 45px;
+}.img-t-i-c3{
+    height: 49px;
+}
+.text-h-user{
+    margin-left: 10px;
+    font-size: 25px;
+}
+@media(max-width:400px) {
+    .nav-bar {
+        font-size: 14px;
+    }
+
+    .logo {
+        height: 40px;
+        width: 40px;
+    }
+    .logo i {
+        color: black;
+        font-size: 20px;
+    }
+    .img-t-i-c1{
+        height: 24px;
+        margin: 3px;
+    }
+    .img-t-i-c2{
+        height: 25px;
+        margin: 3px;
+    }.img-t-i-c3{
+        height: 29px;
+        margin: 3px;
+    }
+    .text-h-user{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .img-icon1 {
+        height: 20px;
+    }
+    .fun1{
+        font-size: 12px;
+    }
+}

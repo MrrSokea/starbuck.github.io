@@ -1,0 +1,324 @@
+.header-text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    background-color: rgb(238, 237, 235);
+    padding: 20px;
+}
+
+.block-coupon {
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+}
+
+.text-left {
+    position: absolute;
+    left: 20px;
+}
+
+.fle-bo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info-counpon {
+    text-align: center;
+    font-size: 18px;
+    color: #05714B;
+}
+
+.img-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img-counpon {
+    width: 150px;
+}
+
+.b-discoun {
+    padding-top: 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: 51px;
+    top: -29px;
+    background-image: url("../img/asset.svg");
+    background-size: 100% 100%;
+    height: 90px;
+    width: 90px;
+}
+.discount-number{
+   font-size: 15px;
+   color: white;
+   font-weight: 500;
+}
+.discount-text{
+    color: white;
+    font-weight: 500;
+    font-size: 10px;
+}
+.description {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-desciption {
+    font-size: 25px;
+}
+
+.img-icon-shopping {
+    height: 27px;
+}
+
+.flex-bt-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid #05714B;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 25px;
+    color: #05714B;
+}
+
+.bt-sold {
+    background-color: #05714B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.img-product-show {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.text-price {
+    font-size: 25px;
+    margin-left: 200px;
+}
+
+.body-offcanvas {
+    padding: 30px;
+}
+
+.flex-coupon {
+    display: flex;
+}
+
+.number-coupon {
+    background-color: rgba(128, 128, 128, 0.329);
+    padding: 5px 10px;
+    margin: 10px;
+    width: 70px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.two-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.bt {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.other-bt {
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 140px;
+}
+
+.back-color {
+    background-color: blue;
+    color: white;
+}
+.myimage{
+    height: 90px;
+    border-radius: 10px;
+}
+@media(max-width:810px){
+    .offcanvas-bottom{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media(max-width:482px) {
+    .b-discoun{
+        right: 18px;
+    }
+    .header-text {
+        font-size: 20px;
+    }
+
+    .img-product {
+        width: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .img-counpon {
+        width: 100px;
+    }
+
+    .description {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-desciption {
+        font-size: 18px;
+    }
+
+    .flex-bt-buy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        border: 1px solid #05714B;
+        margin: 10px 0px;
+        padding: 1px 1px;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 18px;
+        color: #05714B;
+    }
+
+    .bt-sold {
+        background-color: #05714B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px;
+        color: white;
+        font-size: 18px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .info-counpon {
+        text-align: center;
+        font-size: 15px;
+        color: #05714B;
+    }
+    .img-product-show {
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+    
+    .text-price {
+        font-size: 16px;
+        margin-left: 100px;
+    }
+    
+    .body-offcanvas {
+        padding: 10px;
+    }
+    
+    .flex-coupon {
+        display: flex;
+    }
+    
+    .number-coupon {
+        padding: 5px 10px;
+        margin: 2px;
+        width: 60px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .two-btn {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 5px;
+    }
+    
+    .bt {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 0px 10px;
+    }
+    
+    .other-bt {
+        background-color: rgba(128, 128, 128, 0.123);
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .back-color {
+        background-color: blue;
+        color: white;
+    }
+    .offcanvas-bottom{
+        height: 300px;
+    }
+}
