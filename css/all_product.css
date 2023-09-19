@@ -1,0 +1,205 @@
+.redem {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 20px;
+}
+.block-dis{
+    display: flex;
+}
+.menu_dis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.menu_dis:hover{
+    background-color: #05714B;
+    color: white;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+.r1_product {
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 40px;
+    position: relative;
+
+}
+
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0px;
+}
+
+.product {
+    position: relative;
+    width: 239px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.img-product {
+    width: 200px;
+    height: auto;
+}
+
+.text-header-product {
+    color: #05714B;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    top: 2px;
+}
+
+.spacial {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-image: url("../img/asset.svg");
+    background-size: 100% 100%;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    right: 60px;
+    top: -32px;
+
+}
+.spacail2{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-image: url("../img/asset2.svg");
+    background-size: 100% 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+    z-index: 1;
+    right: 5px;
+    top: -16px;
+}
+
+.text-price {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #05714B;
+    font-weight: 600;
+}
+
+.quan {
+    background-color: #05714B;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.nav-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #05714B;
+    padding: 10px;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: #05714B;
+}
+
+.l-logo {
+    height: 80px;
+}
+.container{
+    margin-bottom: 30px;
+}
+.actionButton{
+    background-color: #05714B;
+    color: white;
+}
+.discount-text{
+    font-size: 10px;
+}
+@media(max-width:1200px){
+    .menu_dis{
+        padding: 5px;
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+@media(max-width:770px){
+    .menu_dis{
+        padding: 4px;
+        margin: 1px;
+        font-size: 9px;
+        text-align: center;
+    }
+    .text-header-product {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .scroll {
+        display: flex;
+        overflow-x: scroll;
+        padding: 5px 0px;
+    }
+    .product {
+        width: 140px;
+        margin: 10px;
+        padding: 20px;
+    
+    }
+    
+    .img-product { 
+        width: 100px;
+        height: auto;
+    }
+    .spacial {
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background-size: 100% 100%;
+        padding-top: 10px;
+        right: 34px;
+        font-size: 12px;
+        top: -23px;
+    
+    }
+    .discount-text{
+        font-size:8px;
+    }
+}

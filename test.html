@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Filter</title>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h1>Product Filter</h1>
+
+    <!-- Buttons for filtering by discount -->
+    <button id="discount10">10% Discount</button>
+    <button id="discount20">20% Discount</button>
+    <button id="discount30">30% Discount</button>
+
+    <!-- Product list -->
+    <ul id="productList">
+        <li data-discount="10">Product 1 (10% Discount)</li>
+        <li data-discount="20">Product 2 (20% Discount)</li>
+        <li data-discount="30">Product 3 (30% Discount)</li>
+        <li data-discount="10">Product 1 (10% Discount)</li>
+        <li data-discount="20">Product 2 (20% Discount)</li>
+        <li data-discount="30">Product 3 (30% Discount)</li>
+        <li data-discount="10">Product 1 (10% Discount)</li>
+        <li data-discount="20">Product 2 (20% Discount)</li>
+        <li data-discount="30">Product 3 (30% Discount)</li>
+        <li data-discount="10">Product 1 (10% Discount)</li>
+        <li data-discount="20">Product 2 (20% Discount)</li>
+        <li data-discount="30">Product 3 (30% Discount)</li>
+        <div class="all_product">
+            <div class="product">
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+            </div>
+            <div class="product">
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+
+            </div>
+            <div class="product">
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+            </div>
+
+            <div class="product">
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+                <div class="testing"></div>
+            </div>
+        </div>
+        <!-- Add more product items as needed -->
+    </ul>
+
+    <script>
+        $(document).ready(function () {
+            const productList = $(".all_product");
+            console.log(productList.find(".product").find(".testing")); C
+            console.log()
+            // Function to filter products by discount percentage
+            function filterProductsByDiscount(discount) {
+                const productList = $("#productList");
+                console.log(productList.find("li"))
+                // Hide all products
+                productList.find("li").hide();
+
+                // Show products with the selected discount percentage
+                productList.find(`li[data-discount="${discount}"]`).show();
+            }
+
+            // Add click event listeners to the discount buttons
+            $("#discount10").on("click", function () {
+                filterProductsByDiscount(10);
+            });
+
+            $("#discount20").on("click", function () {
+                filterProductsByDiscount(20);
+            });
+
+            $("#discount30").on("click", function () {
+                filterProductsByDiscount(30);
+            });
+        });
+
+    </script>
+</body>
+
+</html>
