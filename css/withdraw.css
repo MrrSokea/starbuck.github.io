@@ -33,6 +33,9 @@ input,select{
     justify-content: center;
     align-items: center;
 }
+.img-icon-deposit {
+    height: 50px;
+}
 @media(max-width:500px) {
     .img-icon-deposit {
         height: 25px;
